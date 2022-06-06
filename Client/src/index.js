@@ -6,10 +6,13 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <App />
-  </React.StrictMode>
+  // </React.StrictMode>
 );
+
+// закоментировал React.strictMOde потому, что componentDidMount() изза него вызываеться два раза в среде разработки и только в ней
+//вот о проблеме и решении https://stackoverflow.com/questions/63383473/why-componentdidmount-called-two-times
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.remove-button{
+  border-radius: 50%;
+  border: none;
+}
+
+.green{
+  background-color: green;
+}
+.red{
+  background-color: red;
+}
