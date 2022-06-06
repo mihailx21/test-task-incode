@@ -8,16 +8,16 @@ We need you to implement a solution to display price tickers data on the UI in r
 Price data is available from a locally running service (see information below). Any additional visualisations to indicate how prices have changed would be a plus. Testing is also an important part to this exercise.
 
 Requirements:
-+ application should connect to the locally running service
-+ application should render price changes for some tickers in real time
++ application should connect to the locally running service (done)
++ application should render price changes for some tickers in real time (done)
 
 You can get some ideas how your application may look like on the [Google Finance](https://www.google.com/finance/) page.
 
 As a bonus you can implement (please describe implemented bonus functionality in this file):
-- any additional visual effects to highlight positive or negative changes in the prices ()
+- any additional visual effects to highlight positive or negative changes in the prices ( done using arrows and math symbols)
 - the possibility to switch on/off tickers by user
 - the possibility to specify interval time by user
-- the possibility to add/remove ticker from watching group
+- the possibility to add/remove ticker from watching group (done, can add deleted element by input)
 - any additional functionality you consider useful
 
 You should use the next technologies:
